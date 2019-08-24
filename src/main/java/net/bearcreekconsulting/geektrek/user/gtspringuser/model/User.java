@@ -16,13 +16,13 @@ import java.util.UUID;
 @Data
 @Entity
 @Table(name = "user")
-public class user implements Serializable {
+public class User implements Serializable {
 
     @Id
     @GeneratedValue(generator = "UUID")
     @Type(type="org.hibernate.type.UUIDCharType")
     @Column(length = 36, columnDefinition = "varchar(36)", updatable = false, nullable = false)
-    private Long id;
+    private UUID id;
 
     @Version
     private Long version;
