@@ -1,5 +1,6 @@
 package net.bearcreekconsulting.geektrek.user.gtspringuser.model;
 
+import lombok.Builder;
 import lombok.Data;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.Type;
@@ -14,6 +15,7 @@ import java.util.UUID;
  * Created by David on 8/23/2019. Copyright (c) 2019 Bear Creek Consulting LLC.
  */
 @Data
+@Builder
 @Entity
 @Table(name = "user")
 public class User implements Serializable {

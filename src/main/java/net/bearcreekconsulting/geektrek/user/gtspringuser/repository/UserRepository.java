@@ -2,7 +2,7 @@ package net.bearcreekconsulting.geektrek.user.gtspringuser.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import net.bearcreekconsulting.geektrek.user.gtspringuser.model.User
+import net.bearcreekconsulting.geektrek.user.gtspringuser.model.User;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
